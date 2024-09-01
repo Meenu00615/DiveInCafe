@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  @apply py-16;
+}
+
+.section-title {
+  @apply text-2xl font-bold mb-8;
+}
+
+.grid-list {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.blog-card {
+  @apply bg-white shadow-lg rounded-lg overflow-hidden;
+}
+
+.card-banner {
+  @apply relative;
+}
+
+.img-cover {
+  @apply w-full h-auto object-cover;
+}
+
+.card-content {
+  @apply p-4;
+}
+
+.card-meta-list {
+  @apply flex space-x-2 mb-4;
+}
+
+.card-tag {
+  @apply text-sm text-blue-500 hover:underline;
+}
+
+.card-text {
+  @apply text-gray-700;
+}

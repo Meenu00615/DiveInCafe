@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title></title>
+  <meta name="title" content="">
+  <meta name="description" content="">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <!-- Logo Image -->
+      <div class="logo">
+        <a href="#">
+          <img src="logo.png" alt="" width="150" height="auto">
+        </a>
+      </div>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#recipes" class="navbar-link hover:underline" data-nav-link>Recipes</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://mail.google.com/" class="navbar-link hover:underline" data-nav-link>Contact</a>
+          </li>
+          <li class="navbar-item">
+            <a href="register.html" class="navbar-link hover:underline" data-nav-link>Register</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#footer" class="navbar-link hover:underline" data-nav-link>About</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="register.html" class="btn">Join</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Type you Favourite dish name</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h3 class="h1 hero-title">
+            <strong class="strong">Hello, Meenu this side.</strong> I'm sharing Recipes content. 
+          </h3>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Your email address" class="email-field">
+
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+
+            <p class="newsletter-text">
+              Get the more insights
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+      <section class="section recent" aria-label="recent post">
+
+        
+        <div class="container">
+
+
+
+          <div id="recipes" class="title-wrapper">
+
+            <h4 class="h2 section-title">
+              Coffee Recipes <strong class="strong"></strong>
+            </h4>
+
+            </div>
+
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./Coffee/Iced-coffee.jpg" width="450" height="600" loading="lazy"
+                    alt="" class="img-cover">
+
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Iced Coffee</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                  </h3>
+
+                  <p class="card-text">
+                    Brew a strong cup of coffee and let it cool.<br>
+                    Fill a glass with ice cubes.<br>
+                    Pour the cooled coffee over the ice.<br>
+                    Add milk, cream, or sweetener to taste.<br>
+                    Stir well and enjoy!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./Coffee/expresso.jpg" width="500" height="600" loading="lazy"
+                    alt="It’s a new era in design, there are no rules" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Expresso</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Use an espresso machine or stovetop espresso maker.<br>
+                    Add finely ground coffee beans to the portafilter.<br>
+                    Tamp the grounds evenly and firmly.<br>
+                    Brew a small, concentrated shot of coffee (about 1 ounce).<br>
+                    Serve immediately.<br>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./Coffee/Cappuccino.jpg" width="500" height="600" loading="lazy"
+                    alt="Perfection has to do with the end product" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+
+                    <li>
+                      <a href="#" class="card-tag">Cappuccino</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Brew a shot of espresso as above.<br>
+                    Steam milk until frothy, creating a creamy foam.<br>
+                    Pour the steamed milk over the espresso, holding back the foam.<br>
+                    Spoon the foam on top.<br>
+                    Enjoy your cappuccino!<br>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./Coffee/mocha.jpg" width="500" height="600" loading="lazy"
+                    alt="Everyone has a different life story" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Mocha</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Brew a shot of espresso.<br>
+                    Mix in a tablespoon of cocoa powder or chocolate syrup.<br>
+                    Steam milk and pour it into the espresso and chocolate mixture.<br>
+                    Top with whipped cream and a drizzle of chocolate syrup if desired.<br>
+                    Enjoy your mocha!<br>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./Coffee/Americano-Coffee.jpg" width="500" height="600" loading="lazy"
+                    alt="The difference is quality" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Americano</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Brew a shot of espresso.<br>
+                    Add hot water to the espresso (typically 1:2 espresso to water ratio).<br>
+                    Stir and enjoy your Americano!<br>                  
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./Coffee/latte.jpg" width="500" height="600" loading="lazy"
+                    alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Latte</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Brew a shot of espresso.<br>
+                    Steam milk until hot and slightly frothy.<br>
+                    Pour the steamed milk over the espresso, holding back the foam.<br>
+                    Spoon a small amount of foam on top.<br>
+                    Enjoy your latte!<br>                  
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+--------------------------------------------------------
+
+        - #Smoothies
+
+--------------------------------------------------------
+
+      -->
+
+      <section class="section recent" aria-label="recent post">
+
+        
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h4 class="h2 section-title">
+              Smoothies<strong class="strong"></strong>
+            </h4>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./smoothies/Berry Smoothie_1.png" width="550" height="660" loading="lazy"
+                    alt="Creating is a privilege but it’s also a gift" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+                  
+                    <ul class="card-meta-list">
+  
+                      <li>
+                        <a href="#" class="card-tag">Blueberry</a>
+                      </li>
+  
+                    </ul>
+
+                    <p href="#" class="card-text">
+                      In a blender, combine 1 cup mixed berries (fresh or frozen).<br>
+                      Add 1 banana, 1 cup yogurt or milk, and a tablespoon of honey (optional).<br>
+                      Blend until smooth and creamy.<br>
+                      Pour into a glass and enjoy!<br>                    
+                    </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./smoothies/Strawberry-Kiwi-Smoothie.jpg" width="550" height="660" loading="lazy"
+                    alt="Being unique is better than being perfect" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Kiwi - Strawberry Smoothie</a>
+                    </li>
+
+                  </ul>
+                    <p href="#" class="card-text">
+                      In a blender, combine 2 kiwis, peeled and chopped, and 1 cup fresh or frozen strawberries.<br>
+                      Add 1 cup yogurt or milk and a tablespoon of honey (optional).<br>
+                      Blend until smooth and creamy.<br>
+                      Pour into a glass and enjoy!<br>                    </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./smoothies/Chocolate Smoothie.png" width="550" height="660" loading="lazy"
+                    alt="Now we’re getting somewhere" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Chocolate Smoothie</a>
+                    </li>
+
+
+                  </ul>
+                    <p href="#" class="card-text">
+                      In a blender, combine 1 banana and 1 cup milk or almond milk.<br>
+                      Add 2 tablespoons cocoa powder and a tablespoon of honey or maple syrup (optional).<br>
+                      Blend until smooth and creamy.<br>
+                      Pour into a glass and enjoy!<br>                    
+                    </a>
+                    </p>
+
+                </div>
+
+              </div>
+            </li>
+            </ul>
+            </div>
+            </section>
+
+      <!-- 
+--------------------------------------------------------
+
+        - #
+
+--------------------------------------------------------
+
+      -->
+
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h4 class="h2 section-title">
+              Ice Cream<strong class="strong"></strong>
+            </h4>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./Ice Cream/Avacado Ice Cream.png" width="550" height="660" loading="lazy"
+                    alt="Creating is a privilege but it’s also a gift" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+                  
+                    <ul class="card-meta-list">
+  
+                      <li>
+                        <a href="#" class="card-tag"> Avocado Ice Cream</a>
+                      </li>
+  
+                    </ul>
+
+                    <p href="#" class="card-text">
+                      Blend 2 ripe avocados, 1 cup coconut milk, and ½ cup sugar until smooth.<br>
+                      Add 1 tbsp lime juice and 1 tsp vanilla extract.<br>
+                      Pour the mixture into an ice cream maker and churn according to the manufacturer’s instructions.<br>
+                      Freeze for a few hours before serving.<br>               
+                    </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./Ice Cream/Blueberry Ice Cream.png" width="550" height="660" loading="lazy"
+                    alt="Being unique is better than being perfect" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Blueberry Ice Cream</a>
+                    </li>
+
+                  </ul>
+                    <p href="#" class="card-text">
+                      In a saucepan, cook 1 ½ cups blueberries, ½ cup sugar, and 1 tbsp lemon juice until the berries burst.<br>
+                      Blend the mixture until smooth, then cool.<br>
+                      Mix 2 cups heavy cream and 1 cup whole milk, and combine with the blueberry puree.<br>
+                      Churn in an ice cream maker and freeze until firm.<br>
+                      
+                                       </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./Ice Cream/Strawberry Ice Cream.png" width="550" height="660" loading="lazy"
+                    alt="Now we’re getting somewhere" class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Strawberry Ice Cream</a>
+                    </li> 
+
+
+                  </ul>
+                    <p href="#" class="card-text">
+                      Blend 2 cups fresh strawberries, ½ cup sugar, and 1 tsp lemon juice until smooth.<br>
+                      Whisk together 2 cups heavy cream and 1 cup whole milk, then mix with the strawberry puree.<br>
+                      Pour into an ice cream maker and churn until thick and creamy.<br>
+                      Freeze for several hours before serving.<br>              
+                    </a>
+                    </p>
+
+                </div>
+
+              </div>
+            </li>
+            </ul>
+
+        </div>
+      </section>
+
+<!--<!-------
+
+
+
+                      II Ice Cream again-->
+
+                      <section class="section recent" aria-label="recent post">
+                        <div class="container">
+                
+                          <div class="title-wrapper">
+                
+                            <h4 class="h2 section-title">
+                              Ice Cream<strong class="strong"></strong>
+                            </h4>
+                
+                              </ul>
+                
+                            </div>
+                
+                          </div>
+                
+                          <ul class="grid-list">
+                
+                            <li>
+                              <div class="blog-card">
+                
+                                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                                  <img src="./Ice Cream/Vanila Ice Cream.png" width="550" height="660" loading="lazy"
+                                    alt="Creating is a privilege but it’s also a gift" class="img-cover">
+                
+                                </figure>
+                
+                                <div class="card-content">
+                                  
+                                    <ul class="card-meta-list">
+                  
+                                      <li>
+                                        <a href="#" class="card-tag"> Vanilla Ice Cream</a>
+                                      </li>
+                  
+                                    </ul>
+                
+                                    <p href="#" class="card-text">
+                                      In a saucepan, heat 2 cups heavy cream and 1 cup whole milk with 1 vanilla bean (split and seeds scraped) until warm.<br>
+                                      In a bowl, whisk 4 egg yolks with ¾ cup sugar until pale.<br>
+                                      Slowly add the warm cream mixture to the eggs, then return to the saucepan and cook until thickened.<br>
+                                      Strain the mixture, chill, then churn in an ice cream maker.<br>
+                                    </p>
+                                </div>
+                
+                              </div>
+                            </li>
+                
+                            <li>
+                              <div class="blog-card">
+                
+                                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                                  <img src="./Ice Cream/Mango Ice Cream.png" width="550" height="660" loading="lazy"
+                                    alt="Being unique is better than being perfect" class="img-cover">
+                
+                                </figure>
+                
+                                <div class="card-content">
+                
+                                  <ul class="card-meta-list">
+                
+                                    <li>
+                                      <a href="#" class="card-tag">Mango</a>
+                                    </li>
+                
+                                  </ul>
+                                    <p href="#" class="card-text">
+                                      Puree 2 ripe mangoes with ½ cup sugar until smooth.<br>
+                                      Mix the mango puree with 2 cups heavy cream and 1 cup whole milk.<br>
+                                      Churn in an ice cream maker until creamy.<br>
+                                      Freeze for several hours before serving.<br>   
+                                      
+                                                       </a>
+                
+                                </div>
+                
+                              </div>
+                            </li>
+                
+                            <li>
+                              <div class="blog-card">
+                
+                                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                                  <img src="./Ice Cream/Chocolate Ice Cream.png" width="550" height="660" loading="lazy"
+                                    alt="Now we’re getting somewhere" class="img-cover">
+                
+                                </figure>
+                
+                                <div class="card-content">
+                
+                                  <ul class="card-meta-list">
+                
+                                    <li>
+                                      <a href="#" class="card-tag">Chocolate Ice Cream</a>
+                                    </li> 
+                
+                
+                                  </ul>
+                                    <p href="#" class="card-text">
+                                      In a saucepan, heat 2 cups heavy cream, 1 cup whole milk, and ½ cup sugar until warm.<br>
+                                      Whisk in ½ cup cocoa powder and 4 oz chopped dark chocolate until melted and smooth.<br>
+                                      In a separate bowl, whisk 4 egg yolks with ½ cup sugar until pale.<br>
+                                      Slowly add the warm chocolate mixture to the eggs, then return to the saucepan and cook until thickened.<br>
+                                      Strain the mixture, chill, then churn in an ice cream maker.<br>
+                                      Freeze for a few hours before serving.<br>
+                                    </a>
+                                    </p>
+                
+                                </div>
+                
+                              </div>
+                            </li>
+                            </ul>
+                
+                        </div>
+                      </section>
+                
+
+
+<!---------------------------
+  
+
+                      #Cupcakes
+
+--------------------
+
+------------------>
+
+
+<section class="section recent" aria-label="recent post">
+
+        
+  <div class="container">
+
+
+
+    <div class="title-wrapper">
+
+      <h4 class="h2 section-title">
+        Cupcakes Recipes <strong class="strong"></strong>
+      </h4>
+
+      </div>
+
+    </div>
+
+    <ul class="has-scrollbar">
+
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+            <img src="./Cupcake/Strawberry Cupcakes.jpg" width="450" height="600" loading="lazy"
+              alt="" class="img-cover">
+            <img src="./Cupcake/Strawberry Cupcakes.jpg" width="450" height="600" loading="lazy"
+              alt="" class="img-cover">
+
+
+          </figure>
+
+          <div class="card-content">
+
+            <ul class="card-meta-list">
+
+              <li>
+                <a href="#" class="card-tag">Strawberry Cupcakes</a>
+              </li>
+
+            </ul>
+
+            <h3 class="h4">
+            </h3>
+
+            <p class="card-text">
+              In a bowl, mix 1 ½ cups flour, 1 cup sugar, and 1 ½ tsp baking powder.<br>
+              In another bowl, whisk ½ cup butter, 2 eggs, ½ cup milk, and 1 tsp vanilla extract.<br>
+              Fold in 1 cup chopped strawberries.<br>
+              Fill cupcake liners and bake at 350°F for 20 minutes.<br>
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+<!----------------------------------------->
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+            <img src="./Cupcake/Pumpkin-cupcake.jpg" width="500" height="600" loading="lazy"
+              alt="It’s a new era in design, there are no rules" class="img-cover">
+
+          </figure>
+
+          <div class="card-content">
+
+            <ul class="card-meta-list">
+
+              <li>
+                <a href="#" class="card-tag">Pumpkin Cupcake</a>
+              </li>
+
+            </ul>
+
+            <p class="card-text">
+              Mix 1 ½ cups flour, 1 tsp baking powder, 1 tsp cinnamon, and ½ tsp nutmeg.<br>
+              In a separate bowl, whisk 1 cup pumpkin puree, ½ cup sugar, ½ cup brown sugar, and 2 eggs.<br>
+              Combine wet and dry ingredients, fill cupcake liners, and bake at 350°F for 20 minutes.<br>
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+<!----------------------------------------->
+
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+            <img src="./Cupcake/Pumpkin-Latte-Cupcakes-with-Cinnamon.jpg" width="500" height="600" loading="lazy"
+              alt="Perfection has to do with the end product" class="img-cover">
+
+          </figure>
+
+          <div class="card-content">
+
+            <ul class="card-meta-list">
+
+
+              <li>
+                <a href="#" class="card-tag">Pumpkin Latte Cupcakes with Cinnamon</a>
+              </li>
+
+            </ul>
+
+            <p class="card-text">
+              Combine 1 ½ cups flour, 1 tsp baking powder, ½ tsp cinnamon, and ½ tsp nutmeg.<br>
+              Mix ½ cup pumpkin puree, ½ cup brown sugar, ¼ cup strong coffee, and 2 eggs.<br>
+              Blend wet and dry ingredients, pour into cupcake liners, and bake at 350°F for 20 minutes.<br>
+              Sprinkle with cinnamon on top.<br>
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+<!----------------------------------------->
+
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+            <img src="./Cupcake/Red Velvet Cupcake.jpg" width="500" height="600" loading="lazy"
+              alt="Everyone has a different life story" class="img-cover">
+
+            <ul class="avatar-list absolute">
+
+            </ul>
+          </figure>
+
+          <div class="card-content">
+            <ul class="card-meta-list">
+
+              <li>
+                <a href="#" class="card-tag">Red Velvet Cupcake</a>
+              </li>
+
+            </ul>
+
+            <p class="card-text">
+              Whisk together 1 ¼ cups flour, 1 tbsp cocoa powder, and ¼ tsp salt.<br>
+              In another bowl, mix ½ cup butter, 1 cup sugar, 1 egg, and 1 tsp vanilla extract.<br>
+              Add ½ cup buttermilk, red food coloring, and dry ingredients.<br>
+              Fill cupcake liners and bake at 350°F for 20 minutes.<br>
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+<!----------------------------------------->
+
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+            <img src="./Cupcake/Chocolate cupcakes.jpeg" width="500" height="600" loading="lazy"
+              alt="The difference is quality" class="img-cover">
+
+          </figure>
+
+          <div class="card-content">
+            <ul class="card-meta-list">
+
+              <li>
+                <a href="#" class="card-tag">Chocolate Cupcakes</a>
+              </li>
+
+            </ul>
+
+            <p class="card-text">
+              Mix 1 cup flour, ½ cup cocoa powder, 1 tsp baking powder, and ¼ tsp salt.<br>
+              In a separate bowl, whisk ½ cup butter, 1 cup sugar, and 2 eggs.<br>
+              Combine with dry ingredients and ½ cup milk.<br>
+              Pour into cupcake liners and bake at 350°F for 20 minutes.<br>                
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li class="scrollbar-item">
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+            <img src="./Cupcake/Cranberry Mimosa cupcakes.jpg" width="500" height="600" loading="lazy"
+              alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+            <ul class="avatar-list absolute">
+
+            </ul>
+          </figure>
+
+          <div class="card-content">
+
+            <ul class="card-meta-list">
+
+              <li>
+                <a href="#" class="card-tag">Cranberry Mimosa cupcakes</a>
+              </li>
+
+            </ul>
+
+            <p class="card-text">
+              Mix 1 ½ cups flour, 1 tsp baking powder, and ½ tsp salt.<br>
+              Whisk ½ cup butter, 1 cup sugar, 2 eggs, ½ cup cranberry juice, and ¼ cup champagne.<br>
+              Combine wet and dry ingredients, fill cupcake liners, and bake at 350°F for 20 minutes.<br>
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+<!--------------------
+II Pastry-->
+
+<section class="section recent" aria-label="recent post">
+  <div class="container">
+
+    <div class="title-wrapper">
+
+      <h4 class="h2 section-title">
+        Ice Cream<strong class="strong"></strong>
+      </h4>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+            <img src="./Pastry/Red Velvet.png" width="550" height="660" loading="lazy"
+              alt="Creating is a privilege but it’s also a gift" class="img-cover">
+
+          </figure>
+
+          <div class="card-content">
+            
+              <ul class="card-meta-list">
+
+                <li>
+                  <a href="#" class="card-tag">Red Velvet</a>
+                </li>
+
+              </ul>
+
+              <p href="#" class="card-text">
+                Prepare a red velvet sponge cake by mixing 1 ¼ cups flour, 1 tbsp cocoa powder, 1 tsp baking powder, and ½ cup sugar.<br>
+                Add 2 eggs, ½ cup buttermilk, ½ cup melted butter, red food coloring, and 1 tsp vanilla extract, then bake at 350°F until done.<br>
+                Cool the cake and slice it into layers, spreading cream cheese frosting between them.<br>
+                Frost the outside of the cake with more cream cheese frosting and chill before serving.<br>
+              </p>
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+            <img src="./Pastry/Kiwi Pastry.png" width="550" height="660" loading="lazy"
+              alt="Being unique is better than being perfect" class="img-cover">
+
+          </figure>
+
+          <div class="card-content">
+
+            <ul class="card-meta-list">
+
+              <li>
+                <a href="#" class="card-tag">Kiwi Pastry</a>
+              </li>
+
+            </ul>
+              <p href="#" class="card-text">
+                Prepare a basic sponge cake by whisking together 1 cup flour, 1 tsp baking powder, and ½ cup sugar.<br>
+                Add 2 eggs, ½ cup milk, and 1 tsp vanilla extract, then bake at 350°F until done.<br>
+                Once cooled, cut the cake into layers and spread whipped cream between them.<br>
+                Top with sliced kiwi and more whipped cream, then chill before serving.<br>  
+                
+                                 </a>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="blog-card">
+
+          <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+            <img src="./Pastry/Chocolate Pastry.png" width="550" height="660" loading="lazy"
+              alt="Now we’re getting somewhere" class="img-cover">
+
+          </figure>
+
+          <div class="card-content">
+
+            <ul class="card-meta-list">
+
+              <li>
+                <a href="#" class="card-tag">Chocolate Pastry</a>
+              </li> 
+
+
+            </ul>
+              <p href="#" class="card-text">
+                Prepare a rich chocolate sponge cake by mixing 1 cup flour, ½ cup cocoa powder, 1 tsp baking powder, and ½ cup sugar.<br>
+                Add 2 eggs, ½ cup milk, ½ cup melted butter, and 1 tsp vanilla extract, then bake at 350°F until done.<br>
+                Cool the cake and cut into layers, spreading chocolate ganache or frosting between them.<br>
+                Cover the entire cake with chocolate ganache and let it set before slicing.<br>
+              </a>
+              </p>
+
+          </div>
+
+        </div>
+      </li>
+      </ul>
+
+  </div>
+</section>
+
+
+
+
+
+
+  <!-- --------------------
+------------------
+
+    - #FOOTER
+
+------------------------------
+  ----------------------------->
+
+  <footer id="footer" class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+
+          <p class="footer-text">
+            Stay Tune for more delicious recipes.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+          <li>
+            <a href="register.html" class="footer-link hover:underline">Account</a>
+          </li>
+
+          <li>
+            <a href="https://mail.google.com/" class="footer-link hover:underline">Contact</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Meenu00615" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Features</p>
+          </li>
+
+          <li>
+            <a href="#recipes" class="footer-link hover:underline">Recipes</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ Question</a>
+          </li>
+
+        </ul>
+
+
+      </div>
+
+        <div class="section footer-bottom" style="text-align: center; padding: 10px;">
+          <p class="copyright" style="margin: 0;">
+            &copy; Dive In Cafe. Published by <a href="#" class="copyright-link" style="text-decoration: none;">Meenu Patel</a>.
+          </p>
+        </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+  
+  <!-- 
+    - custom js link
+  -->
+  <script src="js.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
