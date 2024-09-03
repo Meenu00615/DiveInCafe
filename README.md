@@ -26,10 +26,3 @@
 
 ## Author
  - Meenu Patel
-
-
-
-
-
-
-## Author: Meenu Patel
