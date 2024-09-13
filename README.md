@@ -15,6 +15,10 @@
 ![4_Ice Cream](https://github.com/user-attachments/assets/9124ea74-7616-4c0c-906a-32bd8cad69ec)
 ![5_Ice Creams](https://github.com/user-attachments/assets/33af5d05-f666-4224-8278-df271011510c)
 
+## Macaron
+![6_Macaron](https://github.com/user-attachments/assets/215cf9ce-5679-40b8-8a9a-cde503fd2097)
+![7_Macaron](https://github.com/user-attachments/assets/fa64a0e4-fa0d-490f-a01e-c2419045c754)
+
 ## Pastry
 ![6_Pastry](https://github.com/user-attachments/assets/3622bc4c-35a7-4e25-abc4-d0dc7aff8fe7)
 
